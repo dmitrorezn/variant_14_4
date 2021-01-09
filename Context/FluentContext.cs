@@ -14,6 +14,8 @@ namespace variant_14_4.Context
       У базі має бути створено загалом дві таблиці.
       Написати метод, що поверне усі доступні спеціалізації лікарів у конкретному місті. Оптимізувати код щоб у базу надсилався лише один запит  
     */
+
+
     class FluentContext : DbContext
     {
         public DbSet<Employe> Employes { get; set; }
